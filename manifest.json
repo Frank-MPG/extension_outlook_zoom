@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "Outlook – Zoom",
-  "version": "1.0.0",
+  "name": "Zoom trackpad pour Outlook",
+  "version": "1.1.0",
   "description": "Pinch (zoom trackpad) sur un mail Outlook web : vrai zoom visuel de Chrome au lieu de grossir la police.",
   "homepage_url": "https://github.com/frank-mpg/extension_outlook_zoom",
   "icons": {
@@ -14,7 +14,7 @@
   ],
   "action": {
     "default_popup": "popup.html",
-    "default_title": "Outlook – Zoom"
+    "default_title": "Zoom trackpad pour Outlook"
   },
   "background": {
     "service_worker": "autoreload.js"
