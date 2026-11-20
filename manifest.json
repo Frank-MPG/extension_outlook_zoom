@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Zoom trackpad pour Outlook",
-  "version": "1.1.0",
-  "description": "Pinch (zoom trackpad) sur un mail Outlook web : vrai zoom visuel de Chrome au lieu de grossir la police.",
+  "name": "Zoom trackpad pour Outlook et Teams",
+  "version": "1.2.0",
+  "description": "Pinch trackpad sur Outlook web et Teams : vrai zoom visuel de Chrome, au lieu du zoom de police ou de l'écran partagé.",
   "homepage_url": "https://github.com/frank-mpg/extension_outlook_zoom",
   "icons": {
     "16": "icons/icon16.png",
@@ -14,7 +14,7 @@
   ],
   "action": {
     "default_popup": "popup.html",
-    "default_title": "Zoom trackpad pour Outlook"
+    "default_title": "Zoom trackpad pour Outlook et Teams"
   },
   "background": {
     "service_worker": "autoreload.js"
@@ -25,7 +25,10 @@
         "https://outlook.office.com/*",
         "https://outlook.office365.com/*",
         "https://outlook.cloud.microsoft/*",
-        "https://outlook.live.com/*"
+        "https://outlook.live.com/*",
+        "https://teams.microsoft.com/*",
+        "https://teams.cloud.microsoft/*",
+        "https://teams.live.com/*"
       ],
       "js": [
         "content.js"
